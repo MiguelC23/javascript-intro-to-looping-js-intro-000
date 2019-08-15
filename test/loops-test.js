@@ -53,7 +53,7 @@ describe('loops', () => {
     })
   })
 
-  describe('doWhileLoop(num)', () => {
+  describe('doWhileLoop(array)', () => {
       it ('console logs "I run once regardless." 1 time when passed an integer of 0 as a parameter.', () => {
           const spy = chai.spy.on(console, 'log');
           doWhileLoop(0);
